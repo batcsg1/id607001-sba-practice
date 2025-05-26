@@ -15,7 +15,7 @@
   "license": "ISC",
   "description": "",
   "dependencies": {
-    "@prisma/client": "^6.7.0",
+    "@prisma/client": "^6.8.2",
     "express": "^5.1.0",
     "joi": "^17.13.3",
     "swagger-jsdoc": "^6.2.8",
@@ -27,6 +27,6 @@
     "mocha": "^11.2.2",
     "nodemon": "^3.1.10",
     "prettier": "^3.5.3",
-    "prisma": "^6.7.0"
+    "prisma": "^6.8.2"
   }
 }
