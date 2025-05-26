@@ -16,15 +16,15 @@ const validatePostPost = (req, res, next) => {
       "string.min": "firstName should have a minimum length of {#limit}",
       "string.max": "firstName should have a maximum length of {#limit}"
     }),
-    published: Joi.boolean().required().messages({
-      "boolean.base": "published should be a boolean",
-      "any.required": "published is required"
-    }),
     authorId: Joi.number().min(0).max(100).required().messages({
       "number.base": "authorId should be a number",
       "number.min": "authorId should be greater than or equal to {#limit}",
       "number.max": "authorId should be lesser than or equal to {#limit}",
       "any.required": "authorId is required"
+    }),
+    published: Joi.boolean().required().messages({
+      "boolean.base": "published should be a boolean",
+      "any.required": "published is required"
     }),
   });
 
